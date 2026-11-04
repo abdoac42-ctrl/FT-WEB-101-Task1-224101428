@@ -1,0 +1,90 @@
+<!-- Name: Abdulrahman Osama Nabil | Student ID: 224101428 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The profile page of Abdulrahman Osama Nabil, an Artificial Intelligence student at New Mansoura University.">
+  <title>Abdulrahman Osama Nabil | Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Abdulrahman Osama Nabil</h1>
+
+    <nav class="identity-bar" aria-label="Main navigation">
+      <a class="brand" href="#top">Abdulrahman Osama Nabil</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="profile-section" id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">A little about me</h2>
+      <img
+        class="profile-photo"
+        src="images/me.jpg"
+        alt="Abdulrahman Osama Nabil standing outdoors"
+        width="240"
+        height="240"
+      >
+      <p class="intro">
+        Hello! I’m Abdulrahman Osama Nabil, a third-year student in the Artificial Intelligence
+        Department at the Faculty of Computer Science and Engineering, New Mansoura University.
+        My favorite field is computer networks, and my favorite hobby is playing football.
+      </p>
+    </section>
+
+    <section class="interests-section" id="interests" aria-labelledby="interests-heading">
+      <h2 id="interests-heading">My interests</h2>
+      <div class="card-row">
+        <article class="profile-card">
+          <h3>Computer Networks</h3>
+          <p>My favorite field of study is computer networks and how connected systems communicate.</p>
+        </article>
+
+        <article class="profile-card">
+          <h3>Football</h3>
+          <p>Playing football is my favorite hobby and a great way to stay active.</p>
+        </article>
+
+        <article class="profile-card">
+          <h3>Artificial Intelligence</h3>
+          <p>I am a third-year Artificial Intelligence student at New Mansoura University.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get in touch</h2>
+      <form class="contact-form">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+      </form>
+    </section>
+
+    <section class="appearance-section" aria-label="Appearance settings">
+      <button type="button" id="dark-mode-toggle" aria-label="Toggle dark mode">
+        Toggle dark mode
+      </button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Abdulrahman Osama Nabil. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
